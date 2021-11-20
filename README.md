@@ -24,7 +24,7 @@ it's all javascript XD
 
 ## References
 
-scrolling with smooth [HERE](#https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo)
+scrolling with smooth [HERE](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo)
 
 calculating section position [HERE](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
 
@@ -40,7 +40,7 @@ index.html
 README.md
 ```
 
-## Howtouse 
+## How to use 
 
 run `index.html` in your browser (google chrome),
 enjoiy scrolling XD
