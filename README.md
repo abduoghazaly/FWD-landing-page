@@ -40,7 +40,7 @@ index.html
 README.md
 ```
 
-## How to use 
+## Howtouse 
 
 run `index.html` in your browser (google chrome),
 enjoiy scrolling XD
