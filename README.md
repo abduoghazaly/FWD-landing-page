@@ -7,6 +7,7 @@
 * [References](#References)
 * [Stracture](#Stracture)
 * [How.to.use](#HowToUse)
+
 ## Instructions
 
 The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
@@ -17,15 +18,11 @@ For specific, detailed instructions, look at the project instructions in the Uda
 
 
 ## Dependencies
-Dependencies
-------------
 
 it's all javascript XD
 
 
 ## References
-References
----------
 
 scrolling with smooth [HERE](#https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo)
 
@@ -33,19 +30,17 @@ calculating section position [HERE](https://developer.mozilla.org/en-US/docs/Web
 
 
 ## Stracture 
-Stracture
----------
 
+```
 css
     - style.css 
 js 
     - app.js
 index.html
 README.md
+```
 
 ## Howtouse 
-How to use
------------
 
 run `index.html` in your browser (google chrome),
 enjoiy scrolling XD
