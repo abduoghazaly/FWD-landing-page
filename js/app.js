@@ -23,8 +23,8 @@
  * 
 */
 
-var navBarUl = document.getElementById("navbar__list");
-var sectionList = document.getElementsByTagName("section");
+let navBarUl = document.getElementById("navbar__list");
+let sectionList = document.getElementsByTagName("section");
 
 
 /**
@@ -82,7 +82,7 @@ function sectionInView(){
 }
 
 // Scroll to anchor ID using scrollTO event
-function scrollToSection(e){
+ let scrollToSection = (e)=>{
     var targetId = e.target.getAttribute("data-targetSection");
      window.scrollTo({
          top: document.getElementById(targetId).getBoundingClientRect().top + window.scrollY,
