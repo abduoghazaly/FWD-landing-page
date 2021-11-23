@@ -48,11 +48,11 @@ function updateSectionList(){
 // build the nav
 function buildNavBar(){
     updateSectionList();
-    var navBarDef = document.createDocumentFragment();
+    const navBarDef = document.createDocumentFragment();
     
-    for(var sect of sectionList){
-        var sectionHeader = sect.querySelector("h2");
-        var navButton = document.createElement("li");
+    for(let sect of sectionList){
+        const sectionHeader = sect.querySelector("h2");
+        const navButton = document.createElement("li");
         navButton.id = `nav__${sect.id}`
         navButton.innerText = sectionHeader.innerText;
         navButton.classList.add("menu__link"); 
@@ -71,10 +71,10 @@ function sectionInView(){
    }
    for(let sectionL of sectionList){
         sectionL.classList.remove("your-active-class");
-        var locationTop = sectionL.getBoundingClientRect().top;
-        var locationBottom = sectionL.getBoundingClientRect().bottom;
+        const locationTop = sectionL.getBoundingClientRect().top;
+        const locationBottom = sectionL.getBoundingClientRect().bottom;
         if(locationTop <= (window.innerHeight * .4) && locationBottom > (window.innerHeight * .4)){
-            var navB = document.getElementById(`nav__${sectionL.id}`);
+            let navB = document.getElementById(`nav__${sectionL.id}`);
             navB.classList.add("active");
             sectionL.classList.add("your-active-class");
         }
@@ -82,8 +82,8 @@ function sectionInView(){
 }
 
 // Scroll to anchor ID using scrollTO event
- let scrollToSection = (e)=>{
-    var targetId = e.target.getAttribute("data-targetSection");
+ const scrollToSection = (e)=>{
+    const targetId = e.target.getAttribute("data-targetSection");
      window.scrollTo({
          top: document.getElementById(targetId).getBoundingClientRect().top + window.scrollY,
          behavior:"smooth"
